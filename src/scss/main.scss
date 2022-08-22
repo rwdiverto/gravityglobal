@@ -15,7 +15,13 @@ h1 {
 }
 .main {
   width: 1440px;
+  box-sizing: content-box;
 }
 .image-hero {
 background: url(image.png);
 }
+
+@media (min-width: 576px) { ... }
+@media (min-width: 768px) { ... }
+@media (min-width: 992px) { ... }
+@media (min-width: 1200px) { ... }
