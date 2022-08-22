@@ -1,0 +1,21 @@
+// zmienne
+$primaryColor: #E4C1AE;
+$textColor: #121212;
+$baseFontSize: 16px;
+$baseLineHeight: 24px;
+$h1Color: #121212;
+//
+body {
+  background: #E5E5E5;
+}
+h1 {
+  font-size:42px;
+  line-height:50.4px;
+  color: $h1Color;
+}
+.main {
+  width: 1440px;
+}
+.image-hero {
+background: url(image.png);
+}
